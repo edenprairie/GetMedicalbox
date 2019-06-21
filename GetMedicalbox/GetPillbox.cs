@@ -49,7 +49,7 @@ namespace Pillbox
 
             if (sb.Length == 0)
             {
-                sb.Append("Greetings from our Webhook API!");
+                sb.Append("Greetings from our Webhook API, Azure and DialogFlow is Awesome!");
             }
 
             response.FulfillmentText = sb.ToString();
